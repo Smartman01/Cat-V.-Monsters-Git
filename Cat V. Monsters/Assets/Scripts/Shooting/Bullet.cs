@@ -41,15 +41,20 @@ public class Bullet : MonoBehaviour {
         Destroy(this.gameObject);
     }
 
-    void onTriggerEnter2D(Collider2D coll)
+    void OnTriggerEnter2D(Collider2D coll)
     {
         var hit = coll.gameObject;
-		var hitEnemy = hit.gameObject.tag == "Enemy";
+		var hitEnemy = hit.tag == "Enemy";
         if (hitEnemy)
         {
             //var Zomhealth = hit.GetComponent<ZombieHealth>();
-            Debug.Log("hit");
+            //Debug.Log("hit");
             //Zomhealth.ZomDamage(damage);
+            Destroy(gameObject);
+        }
+        else if (hit.tag == "Ground")
+        {
+            //Debug.Log("hit");
             Destroy(gameObject);
         }
     }
