@@ -19,7 +19,7 @@ public class Shooting : MonoBehaviour
 
     public int clip = 30;
 
-    public int reserve = int.MaxValue;
+    public int reserve = int.MaxValue - 1;
 
     public Text ammo;
 

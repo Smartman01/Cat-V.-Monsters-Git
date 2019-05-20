@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -46,7 +44,8 @@ public class PlayerMovement : MonoBehaviour
 
     [HideInInspector]
     public bool facingRight = true;
-    //[HideInInspector]
+    [HideInInspector]
+    public float h;
     public bool jump = false;
     public float Speed;
     public float jumpForce;
@@ -79,7 +78,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        float h = Input.GetAxis("Horizontal");
+        h = Input.GetAxis("Horizontal");
 
         Vector2 pos = transform.position;
 
