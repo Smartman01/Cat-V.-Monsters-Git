@@ -45,6 +45,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 8740393865395000524, guid: 46d7e1740048a0147bfd10b33d17ade2, type: 3}
+  enemySpawner: 0
+  waitTime: 0
 --- !u!1 &517193895164858738
 GameObject:
   m_ObjectHideFlags: 0
@@ -90,6 +92,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 8740393865395000524, guid: 46d7e1740048a0147bfd10b33d17ade2, type: 3}
+  enemySpawner: 0
+  waitTime: 0
 --- !u!1 &1059444245366049534
 GameObject:
   m_ObjectHideFlags: 0
@@ -135,6 +139,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 8740393865395000524, guid: 46d7e1740048a0147bfd10b33d17ade2, type: 3}
+  enemySpawner: 0
+  waitTime: 0
 --- !u!1 &3017993199979277078
 GameObject:
   m_ObjectHideFlags: 0
@@ -180,6 +186,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 8740393865395000524, guid: 46d7e1740048a0147bfd10b33d17ade2, type: 3}
+  enemySpawner: 0
+  waitTime: 0
 --- !u!1 &3873394773305542652
 GameObject:
   m_ObjectHideFlags: 0
@@ -225,6 +233,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 8740393865395000524, guid: 46d7e1740048a0147bfd10b33d17ade2, type: 3}
+  enemySpawner: 0
+  waitTime: 0
 --- !u!1 &4609373176047077357
 GameObject:
   m_ObjectHideFlags: 0
@@ -270,6 +280,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 8740393865395000524, guid: 46d7e1740048a0147bfd10b33d17ade2, type: 3}
+  enemySpawner: 0
+  waitTime: 0
 --- !u!1 &4774827700517956212
 GameObject:
   m_ObjectHideFlags: 0
@@ -315,6 +327,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 8740393865395000524, guid: 46d7e1740048a0147bfd10b33d17ade2, type: 3}
+  enemySpawner: 0
+  waitTime: 0
 --- !u!1 &5191396981253657154
 GameObject:
   m_ObjectHideFlags: 0
@@ -360,6 +374,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 8740393865395000524, guid: 46d7e1740048a0147bfd10b33d17ade2, type: 3}
+  enemySpawner: 0
+  waitTime: 0
 --- !u!1 &5984667356909188732
 GameObject:
   m_ObjectHideFlags: 0
@@ -405,6 +421,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 8740393865395000524, guid: 46d7e1740048a0147bfd10b33d17ade2, type: 3}
+  enemySpawner: 0
+  waitTime: 0
 --- !u!1 &6548941811924475185
 GameObject:
   m_ObjectHideFlags: 0
@@ -448,7 +466,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3315609b17b36f644b59d695e673627f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects: []
+  objects:
+  - {fileID: 7058095934792850327, guid: d130a75e4e44f5040987ccd4326b8e50, type: 3}
+  - {fileID: 213117191936911143, guid: 84082f11c72055f4c8614e66a49c33cd, type: 3}
+  enemySpawner: 1
+  waitTime: 10
 --- !u!1 &6743380499123607305
 GameObject:
   m_ObjectHideFlags: 0
@@ -494,6 +516,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 8740393865395000524, guid: 46d7e1740048a0147bfd10b33d17ade2, type: 3}
+  enemySpawner: 0
+  waitTime: 0
 --- !u!1 &7282334049283318168
 GameObject:
   m_ObjectHideFlags: 0
@@ -624,6 +648,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 8740393865395000524, guid: 46d7e1740048a0147bfd10b33d17ade2, type: 3}
+  enemySpawner: 0
+  waitTime: 0
 --- !u!1 &8699029782192495338
 GameObject:
   m_ObjectHideFlags: 0
@@ -669,6 +695,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 8740393865395000524, guid: 46d7e1740048a0147bfd10b33d17ade2, type: 3}
+  enemySpawner: 0
+  waitTime: 0
 --- !u!1 &9010370777461390320
 GameObject:
   m_ObjectHideFlags: 0
@@ -714,3 +742,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 8740393865395000524, guid: 46d7e1740048a0147bfd10b33d17ade2, type: 3}
+  enemySpawner: 0
+  waitTime: 0

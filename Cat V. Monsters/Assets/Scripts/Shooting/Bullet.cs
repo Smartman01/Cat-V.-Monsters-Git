@@ -47,9 +47,9 @@ public class Bullet : MonoBehaviour {
 		var hitEnemy = hit.tag == "Enemy";
         if (hitEnemy)
         {
-            //var Zomhealth = hit.GetComponent<ZombieHealth>();
+            var monHealth = hit.GetComponent<MonHeal>();
             //Debug.Log("hit");
-            //Zomhealth.ZomDamage(damage);
+            monHealth.monDam(damage);
             Destroy(gameObject);
         }
         else if (hit.tag == "Ground")
